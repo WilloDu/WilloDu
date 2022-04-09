@@ -1,0 +1,21 @@
+#include <stdio.h>
+#include <math.h>
+int main()
+
+{ int raio;
+  float di;
+  float ci;
+  float ar;
+
+    printf("Insira o valor do raio:");
+    scanf("%d", &raio);
+    di = 2 * raio;
+    printf("Diametro: %.3f \n", di);
+    ci = 2 * 3.14159 * raio;
+    printf("Circunferencia: %.3f \n", ci);
+    ar = 3.14159 * raio * raio;
+    printf("Área: %.3f \n", ar);
+    
+
+    return 0;
+}
