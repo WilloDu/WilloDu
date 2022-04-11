@@ -1,0 +1,8 @@
+#include <stdio.h>
+
+int main()
+{
+    printf("Bem-vindos ao /Mundo\\ da Linguagem C");
+
+    return 0;
+}
