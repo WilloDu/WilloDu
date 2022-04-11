@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+int main()
+{
+    int n1,t1;
+    float t2;
+    float t3;
+    float t4;
+    float t5;
+printf("Numero inteiro com 5 digitos:");
+    scanf("%d",&n1);
+t1=n1/10000;
+    t2=(n1/1000) % 10; 
+    t3=(n1/100)  % 10;
+    t4=(n1/10)   % 10;
+    t5=(n1/1)    % 10;
+printf("\n   %d", t1 );
+    printf("\t   %.0f", t2 );
+    printf("\t   %.0f", t3 );
+    printf("\t   %.0f", t4 );
+    printf("\t   %.0f", t5);
+
+
+    return 0;
+}
