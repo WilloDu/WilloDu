@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+int main()
+{   float a, b;
+
+    printf("Insira valores de A e B:" );
+    scanf("%f%f", &a, &b);
+    
+    if (a>b)
+        printf("A é maior que B");
+    else
+    if (a<b)
+        printf("B é maior que A");
+    
+    if (a==b)
+        printf("A e B têm o mesmo valor");
+    
+
+    return 0;
+}
