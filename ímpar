@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{   int n;
+    int par;
+    
+    printf("Insira um número \n");
+    scanf("%d", &n);
+    par = n % 2;
+    
+        if (par == 0)
+            printf("este número é par");
+        else
+            printf("este número é ímpar");
+
+    return 0;
+}
