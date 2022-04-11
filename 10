@@ -1,0 +1,63 @@
+#include <stdio.h>
+
+int main()
+{   float a, b, c, d;
+
+    printf("Insira valores de A,B,C e D:" );
+    scanf("%f%f%f%f", &a, &b, &c, &d);
+    
+        if ((a>b)&&(a>c)&&(a>d))
+        {
+            printf("%.1f é o maior número \n", a);
+                if ((c<b)&&(c<d))
+                    printf("%.1f é o menor número ", c);
+                else
+                if ((b<c)&&(b<d))
+                    printf("%.1f é o menor número ", b);
+                else
+                    printf("%.f é o menor número ", d); 
+            
+        }
+              
+        else if  ((b>a)&&(b>c)&&(b>d)) 
+        {
+               printf("%.1f é o maior número \n", b);
+               if ((c<a)&&(c<d))
+                    printf("%.1f é o menor número ", c);
+                else
+                if ((a<c)&&(a<d))
+                    printf("%.1f é o menor número ", a);
+                else
+                    printf("%.f é o menor número ", d);
+        }
+        else if  ((c>a)&&(c>b)&&(c>d)) 
+        {
+               printf("%.1f é o maior número \n", c);
+               if ((b<a)&&(b<d))
+                    printf("%.1f é o menor número ", b);
+                else
+                if ((a<b)&&(a<d))
+                    printf("%.1f é o menor número ", a);
+                else
+                    printf("%.f é o menor número ", d);
+        }
+        else if  ((d>a)&&(d>b)&&(d>c)) 
+        {
+               printf("%.1f é o maior número \n", d);
+               if ((b<a)&&(b<c))
+                    printf("%.1f é o menor número ", b);
+                else
+                if ((a<b)&&(a<c))
+                    printf("%.1f é o menor número ", a);
+                else
+                    printf("%.f é o menor número ", c);
+        }
+        
+    
+    
+    
+    
+    
+
+    return 0;
+}
